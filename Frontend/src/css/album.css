@@ -1,0 +1,42 @@
+/* Album.css */
+
+.album-section {
+  padding: 3rem ;
+}
+
+.album-image-wrapper {
+  position: relative;
+  overflow: hidden;
+  border-radius: 12px;
+}
+
+.album-image {
+  border-radius: 12px;
+  transition: transform 0.3s ease;
+  filter: brightness(80%);
+  width: 100%;
+}
+
+.album-image:hover {
+  transform: scale(1.05);
+}
+
+.album-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  color: #f4f6fc;
+  font-weight: 600;
+  text-align: center;
+  padding: 10px;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  border-radius: 12px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

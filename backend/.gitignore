@@ -1,0 +1,8 @@
+pyvenv.cfg
+share/
+Scripts/
+Lib/
+Include/
+produits_metadata.csv
+openfood.json
+index_produits.faiss
